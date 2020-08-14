@@ -1,0 +1,53 @@
+img{
+ height: 100%;
+ width: 100%;
+}
+
+h2{
+    margin: 0;
+    
+}
+button{
+   border-radius: 15px;
+   width: 120px;
+   height: 40px;
+   background-color: #001E50;
+   color:#ffffff ;
+   border: 2px solid #001E50;
+   font-weight: 600;
+    font-size: 20px;
+    
+}
+
+button:hover{
+   
+    background-color:#ffffff ;
+    color:#001E50 ;
+ }
+
+ .containerAuto{
+      
+      height: 250px;
+      columns: 2;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      
+ }
+.containerAuto:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+ .containerInfo{
+    margin: 0px;
+    height: 250px;
+    width: 280px;
+    text-align: center;
+  
+    
+}
+.containerImage{
+ width: 280px;
+ height: 250px;
+    
+}

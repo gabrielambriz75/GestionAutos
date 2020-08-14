@@ -1,0 +1,7 @@
+
+<h2>Numero de autos vendidos {{contador}}</h2>
+    <div class="container" *ngFor="let auto of autos"> 
+        <app-auto (autoVendido)="addCarrosVendidos()" [auto]="auto"></app-auto>
+    </div>
+
+

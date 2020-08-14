@@ -1,0 +1,18 @@
+<!-- <h3>Dogde</h3>
+<h3>Charger SRT</h3>
+<img style="height: 300px;width:300px;" src="assets/images/DodgeCharger.jpg" >  -->
+<div class="containerAuto">
+    
+    <div class="containerInfo">
+        <h2>{{auto.nombre}}</h2>
+       
+        <p>{{auto.descripcion}}</p>
+        <button (click)="comprar(auto.id)">Comprar</button>
+    </div>
+
+    <div class="containerImage"> 
+        <img [src]="auto.imagen" [alt]="auto.nombre">
+    </div>
+</div>
+    
+
